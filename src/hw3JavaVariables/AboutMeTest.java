@@ -3,7 +3,7 @@ package hw3JavaVariables;
 public class AboutMeTest {
 	public static void main(String[] args) {
 		AboutMe aboutMe = new AboutMe();
-		System.out.println(aboutMe.myNameString);
+		System.out.println(aboutMe.myNameString); // hello
 		System.out.println(aboutMe.age);
 		System.out.println(aboutMe.leanth);
 		System.out.println(aboutMe.mySalary);
