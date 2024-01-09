@@ -5,5 +5,4 @@ public class Snake extends Reptile {
 		System.out.println("This method is from Snake Class");
 	}
 
-
 }
