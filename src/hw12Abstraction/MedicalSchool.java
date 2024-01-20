@@ -5,7 +5,7 @@ package hw12Abstraction;
  * abstract class can extends regular class
  *  abstract class can not extends interface but with  implements keyword abstract class can inheritance interface
  */
-public abstract class MedicalSchool extends NursingSchool  implements LawSchool {
+public abstract class MedicalSchool extends NursingSchool implements LawSchool {
 	public abstract int anatomyLab();
 
 	public void biochemistryLab() {
