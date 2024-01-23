@@ -1,4 +1,5 @@
 package hw13Polymorphism;
+
 /*
  * method overriding is when a child class want to change parent class method by overriding 
  * the method body or argument for different result is method overriding
@@ -9,21 +10,18 @@ public class Niece extends Sister {
 	public void sister() {
 		System.out.println("this void type method from niece class");
 
-
 	}
 
 	@Override
 	public void sister(int age1, int age2) {
-		int total = age1 + age2+100;
+		int total = age1 + age2 + 100;
 		System.out.println("total Age:" + total);
-
-		
 
 	}
 
 	@Override
 	public int sister(int age3, String age4, int age5) {
-		int total2 = age3 + Integer.parseInt(age4) + age5-20;
+		int total2 = age3 + Integer.parseInt(age4) + age5 - 20;
 		System.out.println("Total Age:" + total2);
 		return total2;
 

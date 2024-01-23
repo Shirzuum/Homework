@@ -20,4 +20,16 @@ public class ColumbiaUniversity extends MedicalSchool {
 		System.out.println("this constructor is from ColumbiaUniversity");
 	}
 
+	@Override
+	public int anatomyLab() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int hygiene() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }

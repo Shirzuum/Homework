@@ -22,6 +22,8 @@ public class Daughter extends Father {
 	}
 
 	public void daughter() {
+		super.familyName = "JOLO";
+		System.out.println("Family Name:" + familyName);
 		System.out.println("this void type methord is from daughter class");
 	}
 
